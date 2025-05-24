@@ -1,0 +1,111 @@
+		*{
+		padding:0px;
+		margin:0px;
+		font-weight:250;
+		box-sizing:border-box;
+		 font-family:"Karma", sans-serif;
+		}
+		.icon i{
+		font-size:23px;
+		color:black;
+		}
+		.navbar{
+		height:50px;
+		width:100%;
+		padding:20px 140px ;
+		position:fixed;
+		top:0px;
+		background-color:white;
+		
+		}
+		.navbar .middle ,.navbar .mail{
+		    font-family:"Karma", sans-serif;
+			font-size:24px;
+			text-align:center;
+		}
+		.navbar .mail{
+			text-align:right;
+		}
+		.navbar::after{
+		clear:both;
+		display:table;
+		content:"";
+		}
+		.navbar .icon ,.navbar .middle ,.navbar .mail{
+		float:left;
+		width:33%;
+		
+		}
+		.section1 ,.section2{
+		 padding-top:35px;
+		margin:90px 150px 0px 150px;
+		}
+		:is(.image>img){
+		height:410px;
+		
+		}
+		.section1>.row1::after{
+		clear:both;
+		display:table;
+		content:"";
+		}
+		.section1>.row1 >.box{
+		float:left;
+		width:25%;
+		}
+		.section1>.row1>.box>.image~h2{
+		text-align:center;
+		line-height:1.8;
+		font-family: "Karma", sans-serif;
+		}
+		.section1>.row1>.box>.image~h2~p{
+		text-align:center;
+		line-height:1.8;
+		font-family: "Karma", sans-serif;
+		font-weight:200;
+		}
+		.section1>.row2::after{
+		clear:both;
+		display:table;
+		content:"";
+		}
+		.section1>.row2 >.box{
+		float:left;
+		width:25%;
+		margin-top:30px;
+		}
+		.section1>.row2>.box>.image~h2{
+		text-align:center;
+		line-height:1.8;
+		font-family: "Karma", sans-serif;
+		}
+		.section1>.row2>.box>.image~h2~p{
+		text-align:center;
+		line-height:1.8;
+		font-family: "Karma", sans-serif;
+		width:80%;
+		font-weight:200;
+		}
+		.section2{
+		border-top: 1px solid #eee;
+	    
+		}
+		.section2 h1:first-child{
+		 text-align:center;
+		 margin:50px;
+		font-weight:100px;
+		}
+		.section2>img{
+		display:block;
+		 margin:auto;
+		}
+		.section2>h1:nth-child(3){
+		 text-align:center;
+		 margin:50px;
+		
+		}
+		.section2>p{
+		text-align:center;
+		margin:20px;
+		line-height:1.5;
+		}
